@@ -25,21 +25,21 @@ const Game = () => {
         <div className="gameImgs">
           <div className="divImgGame">
             <img
-              src="../../../public/LaNiñaLata.jpg"
+              src="LaNiñaLata.jpg"
               alt="La niña lata"
               onClick={handleImageClick}
             />
           </div>
           <div className="divImgGame">
             <img
-              src="../../../public/ElNiñoMáscara.jpg"
+              src="ElNiñoMáscara.jpg"
               alt="El niño máscara"
               onClick={handleImageClick}
             />
           </div>
           <div className="divImgGame">
             <img
-              src="../../../public/ElNiñoCaja.jpg"
+              src="ElNiñoCaja.jpg"
               alt="El Niño Caja"
               onClick={handleImageClick}
             />
