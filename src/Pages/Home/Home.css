@@ -1,0 +1,25 @@
+.home {
+    width: 100%;
+    height: 100%;
+} 
+
+.home > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Imagen2 {
+    display: none;
+}
+
+@media (max-width: 600px) {
+.Imagen1 {
+    display: none;
+}
+
+.Imagen2 {
+    display: block;
+}
+  }
+  

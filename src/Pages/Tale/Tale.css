@@ -1,0 +1,15 @@
+.tale {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tale > button {
+    padding: 10px 20px;
+    background-color: #FAEA9E;
+    border-radius: 8px;
+    border: none;
+    font-weight: 900;
+    width: 300px;
+}
