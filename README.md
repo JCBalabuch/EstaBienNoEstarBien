@@ -1,8 +1,22 @@
-# React + Vite
+# Está bien no estar bien
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Es una SPA que recoge los aspectos fundamentales de la serie coreana "Está bien no estar bien".
+Está realizada con React, practicando React Router Dom.
 
-Currently, two official plugins are available:
+  ![Alt text](image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En la sección de cuentos podemos encontrar todos los cuestos de la serie y clicando sobre las card podemos leer el contenido del cuento
+
+![Alt text](image-1.png) 
+
+Una vez leído el cuento, podemos seleccionar quitarlo de nuestra lista
+
+![Alt text](image-2.png)  
+
+En la sección "Juego", puedes escoger entre el alter ego de los personajes principales, cuál cuento te recomiendan leer, el cual debes descubrir clicando el botón inferior
+
+![Alt text](image-3.png)
+
+Espero que la aplicación te guste tanto como me gustó realizarla.
+
+Si tienes algún comentario al código, no dudes en contactarme.
