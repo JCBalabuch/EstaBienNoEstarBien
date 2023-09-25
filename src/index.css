@@ -5,13 +5,35 @@
   text-decoration: none;
   list-style-type: none;
   box-shadow: none;
-  font-family: 'Cormorant Infant', serif;
+  font-family: "Cormorant Infant", serif;
   text-align: center;
 }
 
 :root {
+  /* COLOR PALETTE */
+  --iono-background-color: #242424;
+  --iono-background-button: #FAEA9E;
+  --iono-background-cards: #c1b4d81e;
+  --iono-color: #ffffffde; 
+  --iono-color-secondary: #FAEA9E;
+  --iono-color-links: #e0e0e0;
+  --iono-borderb-links: #c1b4d8;
+  --iono-text-shadow: #206994;
+
+
+  /* BORDER RADIUS */
+  --iono-border-radius: 8px;
+
+  /* BOX SHADOWS */
+  --iono-boxshadow-story: 6px 3px 17px 0px #48A6DC, 5px 5px 10px 1px #000000;
+  --iono-boxshadow-cards: 0px 0px 10px #c1b4d8;
+
+  /* FONT WEIGHT */
+  --iono-fw-button: 900;
+
+
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--iono-color);
+  background-color: var(--iono-background-color);
   margin: 0 30px;
 }

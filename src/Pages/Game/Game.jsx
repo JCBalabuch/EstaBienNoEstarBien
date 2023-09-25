@@ -1,20 +1,13 @@
 import React, { useState } from "react";
 import "./Game.css";
-import TaleDetail from "../../components/TaleDetail/TaleDetail";
 import { Link } from "react-router-dom";
-import { getTales } from "../../../Data/Data";
 
 const Game = () => {
   const [selectedTale, setSelectedTale] = useState(null);
 
   const handleImageClick = () => {
-    const randomTaleId = Math.floor(Math.random() * 16) + 1;
+    const randomTaleId = Math.floor(Math.random() * 16);
     setSelectedTale(randomTaleId);
-
-    // const randomTale = getTales().find((tale) => tale.id === randomTaleId);
-
-    // console.log(randomTale);
-    console.log(randomTaleId);
   };
 
   return (
@@ -47,10 +40,8 @@ const Game = () => {
         </div>
         {selectedTale && (
           <div>
-            <h3>El cuento seleccionado es</h3>
-            <Link to={`/tale/${selectedTale}`}>
-              <p>{selectedTale}</p>
-              <TaleDetail tale={selectedTale} />
+            <Link to={`/tale/${selectedTale}`} className="selectedTale">
+              <button>Clica aquí para descubrir el cuento que debes leer</button>
             </Link>
           </div>
         )}
@@ -60,10 +51,3 @@ const Game = () => {
 };
 
 export default Game;
-
-//   <div>
-//     <h3>El cuento seleccionado es</h3>
-//     <Link to={`/tale/${selectedTale}`}>
-//       <TaleDetail tale={selectedTale} />
-//     </Link>
-//   </div>

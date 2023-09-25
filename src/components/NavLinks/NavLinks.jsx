@@ -1,28 +1,41 @@
 import "./NavLinks.css";
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { slide as Menu } from "react-burger-menu";
 
 const NavLinks = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div>
+
+<div>
       <nav>
-        <div>
-          <Menu right className="Hamburguer">
-            <NavLink to="">Home</NavLink>
-            <NavLink to="story">Historia</NavLink>
-            <NavLink to="characters">Personajes</NavLink>
-            <NavLink to="tales">Cuentos</NavLink>
-            <NavLink to="game">Juego</NavLink>
-          </Menu>
+        <div className="hamburger" onClick={toggleMenu}>
+          <div className={`line ${isOpen ? 'open' : ''}`}></div>
+          <div className={`line ${isOpen ? 'open' : ''}`}></div>
+          <div className={`line ${isOpen ? 'open' : ''}`}></div>
         </div>
-        <div className="NavLinks">
+        <ul className={`menu NavLinks ${isOpen ? 'open' : ''}`}>
+          <li>
             <NavLink to="">Home</NavLink>
+          </li>
+          <li>
             <NavLink to="story">Historia</NavLink>
+          </li>
+          <li>
             <NavLink to="characters">Personajes</NavLink>
+          </li>
+          <li>
             <NavLink to="tales">Cuentos</NavLink>
+          </li>
+          <li>
             <NavLink to="game">Juego</NavLink>
-        </div>
+          </li>
+        </ul>
       </nav>
     </div>
   );

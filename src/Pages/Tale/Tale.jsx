@@ -1,5 +1,5 @@
 import React from "react";
-import './Tale.css'
+import "./Tale.css";
 import { useParams, useNavigate } from "react-router-dom";
 import TaleContent from "../../components/TaleContent/TaleContent";
 import { deleteTale, getTale } from "../../../Data/Data";
@@ -15,6 +15,14 @@ const Tale = () => {
         <div>
           <TaleContent tale={tale} />
         </div>
+        {/* <Button
+          text="Ya he leído {tale.taleName} Quitar de la lista"
+          onClick={() => {
+            deleteTale(tale.id).then(() => {
+              navigate("/Tales");
+            });
+          }}
+        /> */}
         <button
           onClick={() => {
             deleteTale(tale.id).then(() => {

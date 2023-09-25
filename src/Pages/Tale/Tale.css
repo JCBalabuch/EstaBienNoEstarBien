@@ -7,9 +7,9 @@
 
 .tale > button {
     padding: 10px 20px;
-    background-color: #FAEA9E;
-    border-radius: 8px;
+    background-color: var(--iono-background-button);
+    border-radius: var(--iono-border-radius);
     border: none;
-    font-weight: 900;
+    font-weight: var(--iono-fw-button);
     width: 300px;
 }

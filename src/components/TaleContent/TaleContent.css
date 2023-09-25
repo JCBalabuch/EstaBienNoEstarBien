@@ -20,7 +20,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: var(--iono-border-radius);
 }
 
 .dataTale {
@@ -29,7 +29,7 @@
 }
 
 .dataTale > h3 {
-    color: #FAEA9E;
+    color: var(--iono-color-secondary);
     font-size: 2em;
 }
 

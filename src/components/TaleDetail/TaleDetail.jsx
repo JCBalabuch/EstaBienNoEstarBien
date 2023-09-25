@@ -2,6 +2,7 @@ import React from "react";
 import './TaleDetail.css'
 
 const TaleDetail = ({ tale }) => {
+
   return (
     <>
       <div className="cardTale">
