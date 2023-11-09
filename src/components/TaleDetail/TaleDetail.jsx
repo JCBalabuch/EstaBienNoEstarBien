@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import './TaleDetail.css'
 
 const TaleDetail = ({ tale }) => {

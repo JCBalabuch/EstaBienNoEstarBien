@@ -13,7 +13,7 @@
   /* COLOR PALETTE */
   --iono-background-color: #242424;
   --iono-background-button: #FAEA9E;
-  --iono-background-cards: #c1b4d81e;
+  --iono-background-cards: #0e0d0f1e;
   --iono-color: #ffffffde; 
   --iono-color-secondary: #FAEA9E;
   --iono-color-links: #e0e0e0;
@@ -25,8 +25,8 @@
   --iono-border-radius: 8px;
 
   /* BOX SHADOWS */
-  --iono-boxshadow-story: 6px 3px 17px 0px #48A6DC, 5px 5px 10px 1px #000000;
-  --iono-boxshadow-cards: 0px 0px 10px #c1b4d8;
+  --iono-boxshadow-story: 3px 3px 3px 0px #070c0fc4, 3px 3px 3px 0px #000000c9;
+  --iono-boxshadow-cards: 0px 0px 10px #0b0b0c81;
 
   /* FONT WEIGHT */
   --iono-fw-button: 900;
