@@ -594,7 +594,7 @@ let TALES = [
   },
   {
     id: 12,
-    taleName: "Romero y Julieta",
+    taleName: "Romeo y Julieta",
     taleContent: `
         En Verona, una ciudad de Italia, vivían dos familias que eran rivales entre sí. Eran los Capuleto y los Montesco. Un día Romeo, el hijo de estos últimos, decidió ir a una fiesta de los Capuleto con una máscara para que no le reconocieran. Allí se encontró por primera vez con Julieta, la hija de los Montesco, y se enamoró perdidamente de ella. Al final de la fiesta, desde su ventana, Julieta confesó su amor por Romeo sin saber que él estaba debajo escuchándola.<br>
         <br>
