@@ -41,7 +41,7 @@ const Game = () => {
         {selectedTale && (
           <div>
             <Link to={`/tale/${selectedTale}`} className="selectedTale">
-              <button>Clica aquí para descubrir el cuento que debes leer</button>
+              <button>Descubre el cuento que debes leer</button>
             </Link>
           </div>
         )}
